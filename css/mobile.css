@@ -3,3 +3,31 @@
   background-color: hotpink;
   width: 100%;
 }
+
+/******************************* HEADER **************************************/
+header {
+  flex-direction: column;
+}
+
+/* LE LOGO */
+header img {
+  padding-left: 0; /* on supprime les padding inutiles */
+}
+
+/* LE MENU */
+nav {
+  width: 100%;
+}
+
+/* LES LIENS */
+nav a {
+  flex-grow: 1; /*pour qu'ils prennent toute la place dispo (la moitié chacun) */
+  height: 50px;
+  padding-left: 0; /* on supprime les padding inutiles */
+  padding-right: 0; /* on supprime les padding inutiles */
+  justify-content: center;
+}
+
+nav a:hover {
+  box-shadow: inset 0 -3px #0065fc;
+}

@@ -9,6 +9,18 @@ html {
   box-sizing: inherit;
 }
 
+/******************************* GENERAL **************************************/
+body {
+  font-family: Railway, sans-serif;
+}
+
+a,
+li {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+
 /******************************* LAYOUT **************************************/
 .container_header_main {
   background-color: coral;
@@ -22,4 +34,41 @@ html {
 footer {
   height: 20vh;
   background-color: blue;
+}
+
+/******************************* HEADER **************************************/
+header {
+  background-color: yellow;
+  height: 100px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LE LOGO */
+header img {
+  height: 50px;
+  width: auto;
+  padding-left: 30px;
+}
+
+/* LE MENU */
+nav {
+  display: flex;
+}
+
+/* LES LIENS */
+nav a {
+  height: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  display: flex;
+  align-items: center;
+}
+
+nav a:hover {
+  color: #0065fc;
+  box-shadow: inset 0 3px #0065fc;
 }
