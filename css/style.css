@@ -8,3 +8,18 @@ html {
 *:after {
   box-sizing: inherit;
 }
+
+/******************************* LAYOUT **************************************/
+.container_header_main {
+  background-color: coral;
+  height: 80vh;
+  max-width: 1280px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  height: 20vh;
+  background-color: blue;
+}
