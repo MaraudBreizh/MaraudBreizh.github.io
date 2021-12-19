@@ -1,4 +1,4 @@
-/******************************* BOX SIZING **************************************/
+/************************************** BOX SIZING **************************************/
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-/******************************* GENERAL **************************************/
+/************************************** GENERAL **************************************/
 body {
   font-family: Railway, sans-serif;
 }
@@ -21,7 +21,7 @@ li {
   text-decoration: none;
 }
 
-/******************************* LAYOUT **************************************/
+/************************************** LAYOUT **************************************/
 .main_container {
   max-width: 1350px;
   width: 90%;
@@ -46,7 +46,7 @@ main {
   border: 5px solid green;
 }
 
-.container_accommodation_results {
+#container_accommodation_results {
   border: 5px solid blue;
   display: flex;
   column-gap: 20px;
@@ -65,7 +65,7 @@ main {
   width: 33%;
 }
 
-.container_activity_results {
+#container_activity_results {
   border: 5px solid blue;
   height: 200px;
 }
@@ -75,41 +75,54 @@ footer {
   border: 5px solid red;
 }
 
-/******************************* HEADER **************************************/
+/************************************** HEADER **************************************/
 header {
   border: 5px solid orange;
-
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
 }
 
 /* LE LOGO */
-header img {
-  height: 50px;
-  width: auto;
+header picture {
+  border: 5px solid magenta;
+  height: 100px;
   padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+header picture img {
+  /* hauteur de la moitié du header en hauteur */
+  height: 50%;
+  width: auto;
 }
 
 /* LE MENU */
 nav {
   border: 5px solid magenta;
+  height: 100px;
   display: flex;
+  align-items: stretch;
 }
 
 /* LES LIENS */
 nav a {
-  height: 100px;
   padding-left: 30px;
   padding-right: 30px;
 
   display: flex;
   align-items: center;
+  overflow: hidden;
+
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
 }
 
 nav a:hover {
   color: #0065fc;
-  box-shadow: inset 0 3px #0065fc;
+  /* box-shadow: inset 0 3px #0065fc; ALTERNATIVE */
+  border-top: 3px solid #0065fc;
 }
 
-/******************************* MAIN **************************************/
+/************************************** MAIN **************************************/

@@ -42,30 +42,39 @@
   </head>
 
   <body>
-    <div class="container_header_main">
+    <div class="main_container">
       <!--************************ HEADER ************************-->
       <header>
         <!-- LOGO -->
-        <img src="images/logo/Booki.png" alt="logo_booki" />
+        <picture>
+          <img src="images/logo/Booki.png" alt="logo_booki" />
+        </picture>
         <!-- MENU -->
         <nav>
-          <a href="#">Hébergements</a>
-          <a href="#">Activités</a>
+          <a href="#container_accommodation_results">Hébergements</a>
+          <a href="#container_activity_results">Activités</a>
         </nav>
       </header>
 
       <!--************************ MAIN ************************-->
       <main>
-        main
         <!--************************ SEARCH ************************-->
-        <section></section>
+        <section class="container_search"></section>
         <!--************************ RESULTS ************************-->
-        <section>
-          <!-- MOST POPULAR -->
-          <aside></aside>
-        </section>
-        <!--************************ ACTIVITIES ************************-->
-        <section></section>
+        <div class="container_results">
+          <section id="container_accommodation_results">
+            <!-- ACCOMMODATIONS -->
+            <div class="container_accommodations">
+              <div class="container_accommodation_cards"></div>
+            </div>
+            <!-- MOST POPULAR -->
+            <aside class="container_most_popular"></aside>
+          </section>
+          <!--************************ ACTIVITIES ************************-->
+          <section id="container_activity_results">
+            <div class="container_activity_cards"></div>
+          </section>
+        </div>
       </main>
     </div>
     <!--************************ FOOTER ************************-->
