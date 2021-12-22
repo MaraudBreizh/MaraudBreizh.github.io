@@ -1,5 +1,5 @@
 /******************************* LAYOUT **************************************/
-.container_header_main {
+#container_header_main {
   background-color: hotpink;
   width: 100%;
 }

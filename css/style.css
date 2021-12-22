@@ -22,7 +22,7 @@ li {
 }
 
 /************************************** LAYOUT **************************************/
-.main_container {
+#main_container {
   max-width: 1350px;
   width: 90%;
 
@@ -37,12 +37,12 @@ main {
   border: 5px solid orange;
 }
 
-.container_search {
+#container_search {
   border: 5px solid green;
   height: 100px;
 }
 
-.container_results {
+#container_results {
   border: 5px solid green;
 }
 
@@ -52,13 +52,13 @@ main {
   column-gap: 20px;
 }
 
-.container_accommodations {
+#container_accommodations {
   background-color: grey;
   height: 200px;
   width: 66%;
 }
 
-.container_most_popular {
+#container_most_popular {
   border: 5px solid magenta;
   background-color: grey;
   height: 200px;
