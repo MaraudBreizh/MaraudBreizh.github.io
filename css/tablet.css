@@ -2,3 +2,76 @@
 .container_header_main {
   background-color: teal;
 }
+
+/***************************************************************************************/
+/******************************* SECTION results **************************************/
+
+/******************************** CONTAINERS ****************************************/
+#container_accommodation_results {
+  gap: 0;
+}
+
+#container_popular {
+  flex-basis: 100%;
+  border-radius: 0;
+}
+
+#container_accommodations {
+  background-color: white;
+  border-radius: 0;
+}
+
+#container_accommodation_cards {
+  flex-basis: 100%;
+}
+
+/******************************************** CARDS ********************************************/
+/********** POPULAR CARDS ***********/
+.card_popular {
+  min-width: 100%;
+}
+
+/********** ACCOMODATION CARDS ***********/
+.card_acco {
+  min-width: 100%;
+}
+
+/******************************** ACTIVITY ****************************************/
+#container_activity_results {
+  border: 5px solid magenta;
+
+  display: flex;
+  /* height: 890px; */
+
+  padding: 30px;
+  border-radius: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#container_activity_cards {
+  border: 5px solid yellow;
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  row-gap: 30px;
+}
+
+/********** ACTIVITY CARDS ***********/
+.card_activity_full_height {
+  height: 400px;
+}
+
+.card_activity_two_third {
+  height: 400px;
+}
+
+.card_activity_one_third {
+  height: 400px;;
+
+.card_activity_half_height {
+  height: 400px;
+}

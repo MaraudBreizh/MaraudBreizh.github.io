@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
-      media="all and (min-width: 768px) and (max-width: 991px)"
+      media="all and (max-width: 991px)"
       href="css/tablet.css"
     />
     <link
@@ -46,7 +46,7 @@
       <!--************************ HEADER ************************-->
       <header>
         <!-- LOGO -->
-        <a href="index.html">
+        <a href="#">
           <picture>
             <source
               srcset="images/logo/Booki@3x.png"
@@ -65,25 +65,106 @@
       <!--************************ MAIN ************************-->
       <main>
         <!--************************ SEARCH ************************-->
-        <section id="container_search"></section>
+        <section id="container_search">
+
+          <!-- TITRES -->
+          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+          <p>En plein centre ville ou en pleine nature</p>
+
+          <!-- FORM -->
+          <form action="index.html" method="get">
+            <label id="icon_search" for="city">
+              <i class="fas fa-map-marker-alt fa-2x"></i>
+            </label>
+            <input
+              type="text"
+              name="city"
+              id="city"
+              value="Marseille, France"
+              placeholder="Destination"
+              autofocus
+              required
+            />
+            <input type="submit" value="Rechercher" />
+            <input class="fa fa-search" type="submit" value="&#xf002" />
+          </form>
+
+        </section>
         <!--************************ RESULTS ************************-->
         <div id="container_results">
+          <div id="vacancy">vacancy information</div>
           <section id="container_accommodation_results">
             <!-- ACCOMMODATIONS -->
             <div id="container_accommodations">
-              <div id="container_accommodation_cards"></div>
+              <div id="container_accommodation_cards">
+                <!---------------- POPULAR CARDS --------------->
+                <a href="#" class="card_acco">
+                  card 1
+                </a>
+                <a href="#" class="card_acco">
+                  card 2
+                </a>
+                <a href="#" class="card_acco">
+                  card 3
+                </a>
+                <a href="#" class="card_acco">
+                  card 4
+                </a>
+                <a href="#" class="card_acco">
+                  card 5
+                </a>
+                <a href="#" class="card_acco">
+                  card 6
+                </a>
+              </div>
             </div>
             <!-- MOST POPULAR -->
-            <aside id="container_most_popular"></aside>
+            <aside id="container_popular">
+              <div id="container_popular_cards">
+              <!---------------- POPULAR CARDS --------------->
+                <a href="#" class="card_popular">
+                  card 1
+                </a>
+                <a href="#" class="card_popular">
+                  card 2
+                </a>
+                <a href="#" class="card_popular">
+                  card 3
+                </a>
+              </div>
+            </aside>
           </section>
           <!--************************ ACTIVITIES ************************-->
           <section id="container_activity_results">
-            <div id="container_activity_cards"></div>
+            <div id="container_activity_cards">
+              <a href="#" class="card_activity_full_height">
+                  card 1 - full_height
+                </a>
+                <a href="#" class="card_activity_two_third">
+                  card 2 - two_third
+                </a>
+                <a href="#" class="card_activity_one_third">
+                  card 3 - one_third
+                </a>
+                <a href="#" class="card_activity_full_height">
+                  card 6 - full_height
+                </a>
+                <a href="#" class="card_activity_half_height">
+                  card 4 - half_height
+                </a>
+                <a href="#" class="card_activity_half_height">
+                  card 5 - half_height
+                </a>
+            </div>
           </section>
         </div>
       </main>
     </div>
     <!--************************ FOOTER ************************-->
-    <footer>FOOTER</footer>
+    <footer>
+      <div class="footer_block">div 1</div>
+      <div class="footer_block">div 2</div>
+      <div class="footer_block">div 3</div>
+    </footer>
   </body>
 </html>
