@@ -11,32 +11,42 @@ html {
 
 /************************************** GENERAL **************************************/
 body {
-  font-family: Railway, sans-serif;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
 a,
 li {
-  color: black;
+  color: inherit;
   list-style: none;
   text-decoration: none;
 }
 
+h1,
+h2 {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+}
+
 /************************************** LAYOUT **************************************/
 #main_container {
-  border: 5px solid red;
-
-  max-width: 2880px;
+  max-width: 1440px;
   width: 95%;
 
   /* centrer le container */
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
 
 /*************************************************************************************/
 /************************************** HEADER **************************************/
 header {
-  border: 5px solid orange;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -44,23 +54,21 @@ header {
 
 /* LE LOGO */
 header picture {
-  border: 5px solid magenta;
-  height: 240px;
-  padding-left: 30px;
+  height: 90px;
   display: flex;
   align-items: center;
+  padding-left: 30px;
 }
 
 header picture img {
   /* hauteur de la moitié du header en hauteur */
-  height: 25%;
-  width: auto;
+  width: 97px;
+  height: auto;
 }
 
 /* LE MENU */
 nav {
-  border: 5px solid magenta;
-  height: 240px;
+  height: 90px;
   display: flex;
   align-items: stretch;
 }
@@ -71,7 +79,6 @@ nav a {
   align-items: center;
   overflow: hidden;
 
-  font-size: 34px;
   padding-left: 2vw;
   padding-right: 2vw;
 

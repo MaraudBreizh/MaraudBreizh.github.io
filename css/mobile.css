@@ -12,11 +12,12 @@ header picture {
 
 header picture img {
   height: 50%;
+  width: auto;
 }
 
 /* LE MENU */
 nav {
-  height: 133px;
+  height: 132px;
 }
 
 /* LES LIENS */
