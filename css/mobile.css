@@ -1,3 +1,9 @@
+/******************************************************************************/
+/********************************* MAIN **************************************/
+#main_container {
+  width: 100%;
+}
+
 /******************************* HEADER **************************************/
 header {
   flex-direction: column;
@@ -5,19 +11,8 @@ header {
 
 /* LE LOGO */
 header picture {
-  height: 132px;
   padding-left: 0; /* suppression des padding inutiles */
   justify-content: center;
-}
-
-header picture img {
-  height: 50%;
-  width: auto;
-}
-
-/* LE MENU */
-nav {
-  height: 132px;
 }
 
 /* LES LIENS */
@@ -27,19 +22,13 @@ nav a {
   width: 50%;
   justify-content: center;
 
-  border-top: 6px solid transparent;
-  border-bottom: 6px solid grey;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid grey;
 }
 
 nav a:hover {
-  border-top: 6px solid transparent;
-  border-bottom: 6px solid #0065fc;
-}
-
-/******************************************************************************/
-/********************************* MAIN **************************************/
-#main_container {
-  width: 100%;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid #0065fc;
 }
 
 /******************************* SEARCH *************************************/
