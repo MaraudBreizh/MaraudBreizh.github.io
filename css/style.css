@@ -21,6 +21,12 @@ li {
   text-decoration: none;
 }
 
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2 {
   font-size: 22px;
@@ -190,6 +196,67 @@ input[class*="fa-search"] {
   width: 60px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+}
+
+/**************************************************/
+/****************** LES FILTRES ******************/
+#container_filters {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  column-gap: 20px;
+  row-gap: 15px;
+}
+
+#container_filters ul {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 20px;
+  row-gap: 15px;
+}
+
+#container_filters button {
+  padding: 0;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+
+  font-weight: bold;
+  background-color: white;
+
+  border: 2px solid #b7b7b7;
+  border-left: none;
+  border-radius: 25px;
+
+  cursor: pointer;
+}
+
+#container_filters button:hover {
+  background-color: #deebff;
+  color: #0065fc;
+  transform: scale(1.025);
+}
+
+.filter_icon {
+  min-width: 50px;
+  height: 50px;
+
+  position: relative;
+  left: -1px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #deebff;
+  color: #0065fc;
+  border-radius: 50%;
+}
+
+.filter_name {
+  margin-right: 20px;
+  margin-left: 10px;
 }
 
 /***************************************************************************************/
