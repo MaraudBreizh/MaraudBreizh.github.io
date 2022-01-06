@@ -9,13 +9,17 @@
 #container_accommodations {
   width: 100%;
 
-  padding: 0 30px 30px;
+  padding: 0 30px;
 }
 
 #container_popular {
   width: 100%;
 
   padding: 0 30px 30px;
+}
+
+#container_accommodations > p {
+  margin-top: 30px;
 }
 
 /******************************** ACTIVITY ****************************************/

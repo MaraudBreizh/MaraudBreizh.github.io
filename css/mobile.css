@@ -11,14 +11,20 @@ header {
 
 /* LE LOGO */
 header picture {
-  padding-left: 0; /* suppression des padding inutiles */
+  margin-left: 0; /* suppression des marges */
   justify-content: center;
+  height: 60px;
+}
+
+nav {
+  height: 50px;
 }
 
 /* LES LIENS */
 nav a {
-  padding-left: 0; /* suppression des padding inutiles */
-  padding-right: 0; /* suppression des padding inutiles */
+  padding-left: 0; /* suppression des padding  */
+  padding-right: 0; /* suppression des padding  */
+
   width: 50%;
   justify-content: center;
 
@@ -26,7 +32,8 @@ nav a {
   border-bottom: 3px solid grey;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:active {
   border-top: 3px solid transparent;
   border-bottom: 3px solid #0065fc;
 }
@@ -58,6 +65,10 @@ input[value="Rechercher"] {
 /* SEULEMENT EN VERSION MOBILE */
 input[class*="fa-search"] {
   display: block;
+
+  width: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 /***************************************************************************************/
@@ -82,6 +93,7 @@ input[class*="fa-search"] {
 
 #container_accommodations {
   background-color: white;
+  padding: 0 15px 0;
 }
 
 #container_accommodation_cards {
