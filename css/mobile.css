@@ -74,13 +74,14 @@ input[class*="fa-search"] {
   gap: 0;
 }
 
-#container_popular {
+#container_popular,
+#container_accommodations {
   padding: 0 15px 30px;
+  border-radius: 0;
 }
 
 #container_accommodations {
   background-color: white;
-  padding: 0 15px 30px;
 }
 
 #container_accommodation_cards {
@@ -101,6 +102,27 @@ input[class*="fa-search"] {
 .card_acco img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+/********** ACTIVITY ***********/
+
+#container_activity_results {
+  padding: 0 15px;
+}
+
+#container_activity_cards {
+  /* display: block; */
+  height: auto;
+  row-gap: 20px;
+}
+
+.card_activity_full_height,
+.card_activity_2,
+.card_activity_3,
+.card_activity_5,
+.card_activity_6 {
+  height: 195px;
+  border-radius: 20px;
 }
 
 /********** FOOTER ***********/
