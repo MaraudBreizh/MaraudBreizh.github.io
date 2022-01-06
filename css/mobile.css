@@ -62,21 +62,48 @@ input[class*="fa-search"] {
 
 /***************************************************************************************/
 /******************************* SECTION results **************************************/
-/****************** VACANCY ******************/
 
-#container_accommodation_results {
-  flex-direction: column-reverse;
-  column-gap: 0;
+/****************** VACANCY ******************/
+#vacancy {
+  margin-left: 15px;
 }
 
-#container_accommodations {
-  width: 100%;
-  background-color: white;
+/****************** ACCOMODATION ******************/
+
+#container_accommodation_results {
+  gap: 0;
 }
 
 #container_popular {
-  width: 100%;
+  padding: 0 15px 30px;
 }
+
+#container_accommodations {
+  background-color: white;
+  padding: 0 15px 30px;
+}
+
+#container_accommodation_cards {
+  row-gap: 20px;
+}
+
+#container_popular_cards {
+  row-gap: 20px;
+}
+
+/********** ACCOMODATION CARDS ***********/
+.card_acco {
+  width: 100%;
+
+  border-radius: 20px;
+}
+
+.card_acco img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/********** FOOTER ***********/
 
 footer {
   flex-direction: column;

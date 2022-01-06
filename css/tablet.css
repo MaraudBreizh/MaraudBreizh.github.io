@@ -3,32 +3,19 @@
 
 /******************************** CONTAINERS ****************************************/
 #container_accommodation_results {
-  gap: 0;
-}
-
-#container_popular {
-  flex-basis: 100%;
-  border-radius: 0;
+  gap: 20px;
 }
 
 #container_accommodations {
-  background-color: white;
-  border-radius: 0;
+  width: 100%;
+
+  padding: 0 30px 30px;
 }
 
-#container_accommodation_cards {
-  flex-basis: 100%;
-}
+#container_popular {
+  width: 100%;
 
-/******************************************** CARDS ********************************************/
-/********** POPULAR CARDS ***********/
-.card_popular {
-  min-width: 100%;
-}
-
-/********** ACCOMODATION CARDS ***********/
-.card_acco {
-  min-width: 100%;
+  padding: 0 30px 30px;
 }
 
 /******************************** ACTIVITY ****************************************/
@@ -65,7 +52,8 @@
 }
 
 .card_activity_one_third {
-  height: 400px;;
+  height: 400px;
+}
 
 .card_activity_half_height {
   height: 400px;
