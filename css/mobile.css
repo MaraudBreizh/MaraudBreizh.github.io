@@ -137,13 +137,11 @@ input[class*="fa-search"] {
   width: 100%;
 }
 
-/********** FOOTER ***********/
+/******************************** FOOTER ****************************************/
 
-footer {
+#container-footer {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
   flex-direction: column;
-  height: 200px;
-}
-
-.footer_block {
-  height: 100%;
 }

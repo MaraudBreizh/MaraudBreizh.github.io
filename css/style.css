@@ -523,15 +523,32 @@ input[class*="fa-search"] {
 /******************************** FOOTER ****************************************/
 
 footer {
-  border: 5px solid red;
-  background-color: grey;
-
-  height: 300px;
-  display: flex;
+  background-color: var(--lightGrey);
 }
 
-.footer_block {
-  border: 5px solid magenta;
+#container-footer {
+  max-width: 1440px;
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 20px;
+}
 
+.footer-block {
   width: 100%;
+}
+
+.footer-block > h3 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-block ul {
+  margin-bottom: 10px;
+}
+
+.footer-block ul li {
+  padding-bottom: 10px;
 }
