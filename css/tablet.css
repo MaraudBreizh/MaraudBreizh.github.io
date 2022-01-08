@@ -1,35 +1,35 @@
 /***************************************************************************************/
 /******************************* SECTION results **************************************/
 
-/******************************** CONTAINERS ****************************************/
-#container_accommodation_results {
+/************* ACCOMODATIONS CONTAINERS ***************/
+#container-accommodation-results {
   gap: 20px;
 }
 
-#container_accommodations {
+#container-accommodations {
   width: 100%;
 
   padding: 0 30px;
 }
 
-#container_popular {
+#container-popular {
   width: 100%;
 
   padding: 0 30px 30px;
 }
 
-#container_accommodations > p {
+#container-accommodations > p {
   margin-top: 30px;
 }
 
 /******************************** ACTIVITY ****************************************/
 
 /********** ACTIVITY CARDS ***********/
-.card_activity_full_height,
-.card_activity_2,
-.card_activity_3,
-.card_activity_5,
-.card_activity_6 {
+.card-activity-full-height,
+.card-activity-2,
+.card-activity-3,
+.card-activity-5,
+.card-activity-6 {
   height: 47.5%;
   width: 32%;
 }

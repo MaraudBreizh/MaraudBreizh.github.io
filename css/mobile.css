@@ -1,6 +1,6 @@
 /******************************************************************************/
 /********************************* MAIN **************************************/
-#main_container {
+#main-container {
   width: 100%;
 }
 
@@ -9,18 +9,19 @@ header {
   flex-direction: column;
 }
 
-/* LE LOGO */
-header picture {
+/* LOGO */
+#container-logo {
   margin-left: 0; /* suppression des marges */
   justify-content: center;
   height: 60px;
 }
 
+/* MENU */
 nav {
   height: 50px;
 }
 
-/* LES LIENS */
+/* MENU ITEMS */
 nav a {
   padding-left: 0; /* suppression des padding  */
   padding-right: 0; /* suppression des padding  */
@@ -38,16 +39,19 @@ nav a:active {
   border-bottom: 3px solid #0065fc;
 }
 
+/*******************************************************************************/
+/********************************* MAIN **************************************/
+
 /******************************* SEARCH *************************************/
-#container_search {
+#container-search {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-#container_search h1 {
+#container-search h1 {
   margin-bottom: 18px;
 }
-#container_search p {
+#container-search p {
   margin-top: 17px;
   margin-bottom: 40px;
 }
@@ -79,60 +83,56 @@ input[class*="fa-search"] {
   margin-left: 15px;
 }
 
-/****************** ACCOMODATION ******************/
+/************* ACCOMODATIONS CONTAINERS ***************/
 
-#container_accommodation_results {
+#container-accommodation-results {
   gap: 0;
 }
 
-#container_popular,
-#container_accommodations {
+#container-popular,
+#container-accommodations {
   padding: 0 15px 30px;
   border-radius: 0;
 }
 
-#container_accommodations {
+#container-accommodations {
   background-color: white;
-  padding: 0 15px 0;
+  padding-bottom: 0;
 }
 
-#container_accommodation_cards {
-  row-gap: 20px;
-}
-
-#container_popular_cards {
+#container-accommodation-cards,
+#container-popular-cards {
   row-gap: 20px;
 }
 
 /********** ACCOMODATION CARDS ***********/
-.card_acco {
+.card-acco {
   width: 100%;
 
   border-radius: 20px;
 }
 
-.card_acco img {
+.card-acco img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
 /********** ACTIVITY ***********/
 
-#container_activity_results {
+#container-activity-results {
   padding: 0 15px;
 }
 
-#container_activity_cards {
-  /* display: block; */
+#container-activity-cards {
   height: auto;
   row-gap: 20px;
 }
 
-.card_activity_full_height,
-.card_activity_2,
-.card_activity_3,
-.card_activity_5,
-.card_activity_6 {
+.card-activity-full-height,
+.card-activity-2,
+.card-activity-3,
+.card-activity-5,
+.card-activity-6 {
   height: 205px;
   width: 100%;
 }
