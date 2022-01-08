@@ -13,11 +13,10 @@ html {
 
 :root {
   /* identical to the selector html, except that its specificity is higher.*/
-  --lightGrey: #b7b7b7;
-  --darkGrey: #d9d9d9;
+  --lightGrey: #f2f2f2;
   --lightBlue: #deebff;
   --darkBlue: #0065fc;
-  --cardShadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  --cardShadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
   --cardShadowBlue: 0 0 10px 2px #0065fc;
 }
 
@@ -226,7 +225,7 @@ input[class*="fa-search"] {
   font-weight: bold;
   background-color: white;
 
-  border: 2px solid var(--darkGrey);
+  border: 2px solid var(--lightGrey);
   border-left: none;
   border-radius: 25px;
 
@@ -286,7 +285,7 @@ input[class*="fa-search"] {
   align-items: center;
   /* couleur et bordure */
   color: var(--darkBlue);
-  border: 1px solid var(--darkGrey);
+  border: 1px solid var(--lightGrey);
   border-radius: 50%;
   font-size: 15px;
 }
@@ -385,7 +384,7 @@ input[class*="fa-search"] {
 }
 
 .shade_star {
-  color: var(--darkGrey);
+  color: var(--lightGrey);
 }
 
 /********** POPULAR CARDS ***********/
