@@ -14,8 +14,7 @@ html {
 /* Variables */
 :root {
   /* identical to the selector html, except that its specificity is higher.*/
-  /* --lightGrey: #f2f2f2; */
-  --lightGrey: #b7b7b7;
+  --lightgrey: #f2f2f2;
   --lightBlue: #deebff;
   --darkBlue: #0065fc;
   --cardShadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
