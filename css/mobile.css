@@ -29,13 +29,13 @@ nav a {
   width: 50%;
   justify-content: center;
 
-  border-top: 3px solid transparent;
+  border-top: none;
   border-bottom: 3px solid grey;
 }
 
 nav a:hover,
 nav a:active {
-  border-top: 3px solid transparent;
+  border-top: none;
   border-bottom: 3px solid #0065fc;
 }
 

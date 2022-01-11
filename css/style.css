@@ -508,6 +508,7 @@ input[class*="fa-search"] {
   margin-left: 20px;
 }
 
+/* Card animation on hover */
 .card-acco:hover,
 .card-popular:hover,
 .card-activity-full-height:hover,
