@@ -55,10 +55,8 @@ p {
 /************************************** LAYOUT **************************************/
 #main-container {
   max-width: 1440px;
-  width: 95%;
-
-  /* centrer le container */
-  margin: 0 auto;
+  min-width: 256px;
+  margin: 0 5%;
 }
 
 /*************************************************************************************/
@@ -162,7 +160,7 @@ input[name="city"] {
 }
 
 input[name="city"]:focus-visible {
-  outline: var(--darkBlue) auto 1px;
+  outline: none;
 }
 
 input[type="submit"] {
