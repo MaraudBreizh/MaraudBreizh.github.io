@@ -2,6 +2,8 @@
 /********************************* MAIN **************************************/
 #main-container {
   margin: auto;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /******************************* HEADER **************************************/
@@ -80,7 +82,7 @@ input[class*="fa-search"] {
 
 /****************** VACANCY ******************/
 #vacancy {
-  margin-left: 15px;
+  padding-left: 15px;
 }
 
 /************* ACCOMODATIONS CONTAINERS ***************/

@@ -56,7 +56,9 @@ p {
 #main-container {
   max-width: 1440px;
   min-width: 256px;
-  margin: 0 5%;
+  margin: 0 auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 /*************************************************************************************/
